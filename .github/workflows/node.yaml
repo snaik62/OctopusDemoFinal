@@ -37,7 +37,7 @@ jobs:
       with:
         additionalArguments: /overrideconfig mode=Mainline
     - name: Install Octopus Deploy CLI
-      uses: snaik92/install-octopus-cli-action@v1
+      uses: OctopusDeploy/install-octopus-cli-action@v1
       with:
         version: latest
     - name: Install Dependencies
