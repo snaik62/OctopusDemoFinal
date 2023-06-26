@@ -51,9 +51,6 @@ jobs:
       with:
         name: Dependencies
         path: dependencies.txt
-    - name: List Dependency Updates
-      run: npm outdated > dependencyUpdates.txt
-      shell: bash
     - name: Collect Dependency Updates
       uses: actions/upload-artifact@v2
       with:
